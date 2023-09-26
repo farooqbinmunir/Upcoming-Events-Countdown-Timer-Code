@@ -1,5 +1,6 @@
 body{
     background: chocolate;
+    font-family: Verdana;
 }
 *{
     margin: 0;
@@ -20,7 +21,7 @@ body{
     height: inherit;
     width: inherit;
 }
-#fbm-logo img#logo-img{
+#fbm-logo img#fbm-logo-img{
     display: block;
     width: inherit;
     height: inherit;
@@ -41,9 +42,6 @@ body{
     background: var(--fbm-color-primary);
     padding: 100px;
 }
-#fbm-countdown > .fbm-countdown-wrapper{
-    display: flex;
-}
 #fbm-countdown > .fbm-countdown-wrapper > div[id]{
     margin: 0 10px;
     font-size: 50px;
@@ -54,4 +52,7 @@ body{
 #fbm-countdown > .fbm-countdown-wrapper {
 	display: flex;
 	margin-top: 20px;
+}
+.fbm-upcoming-event-heading {
+	font-size: 30px;
 }
