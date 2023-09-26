@@ -1,20 +1,53 @@
 body{
     background: chocolate;
 }
-#countdown {
-    font-size: 24px;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fbm-border-standard: 1px solid rgba(0, 0, 0, .2);
+    --fbm-padding-standard: 10px 20px;
+    --fbm-color-text: crimson;
+    --fbm-color-primary: goldenrod;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+}
+.logo-wrapper{
+    height: inherit;
+    width: inherit;
+}
+#logo img#logo-img{
+    display: block;
+    width: inherit;
+    height: inherit;
+
+}
+.parent{
+    position: relative;
+}
+.center{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: goldenrod;
+}
+#countdown{
+    font-size: 24px;
+    text-align: center;
+    background: var(--fbm-color-primary);
     padding: 100px;
 }
-
-#countdown div {
-    display: inline-block;
+#countdown > .countdown-wrapper{
+    display: flex;
+}
+#countdown > .countdown-wrapper > div[id]{
     margin: 0 10px;
     font-size: 50px;
-    color: crimson;
+    color: var(--fbm-color-text);
+    border: var(--fbm-border-standard);
+    padding: var(--fbm-padding-standard);
 }
