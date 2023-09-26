@@ -1,9 +1,20 @@
+body{
+    background: chocolate;
+}
 #countdown {
     font-size: 24px;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: goldenrod;
+    padding: 100px;
 }
 
 #countdown div {
     display: inline-block;
     margin: 0 10px;
+    font-size: 50px;
+    color: crimson;
 }
