@@ -12,42 +12,46 @@ body{
     --fbm-color-text: crimson;
     --fbm-color-primary: goldenrod;
 }
-#logo{
+#fbm-logo{
     width: 200px;
     height: 150px;
 }
-.logo-wrapper{
+.fbm-logo-wrapper{
     height: inherit;
     width: inherit;
 }
-#logo img#logo-img{
+#fbm-logo img#logo-img{
     display: block;
     width: inherit;
     height: inherit;
 
 }
-.parent{
+.fbm-parent{
     position: relative;
 }
-.center{
+.fbm-center{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#countdown{
+#fbm-countdown{
     font-size: 24px;
     text-align: center;
     background: var(--fbm-color-primary);
     padding: 100px;
 }
-#countdown > .countdown-wrapper{
+#fbm-countdown > .fbm-countdown-wrapper{
     display: flex;
 }
-#countdown > .countdown-wrapper > div[id]{
+#fbm-countdown > .fbm-countdown-wrapper > div[id]{
     margin: 0 10px;
     font-size: 50px;
     color: var(--fbm-color-text);
     border: var(--fbm-border-standard);
     padding: var(--fbm-padding-standard);
+}
+#fbm-countdown > .fbm-countdown-wrapper {
+	display: flex;
+	margin-top: 20px;
 }

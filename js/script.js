@@ -32,6 +32,6 @@ var countdownInterval = setInterval(function () {
     // If the countdown is over, display a message
     if (timeRemaining < 0) {
         clearInterval(countdownInterval);
-        document.getElementById("countdown").innerHTML = "The event has already occurred!";
+        document.getElementById("fbm-countdown").innerHTML = "Event expired!";
     }
 }, 1000);
