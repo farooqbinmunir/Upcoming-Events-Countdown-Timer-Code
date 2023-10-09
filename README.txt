@@ -3,7 +3,7 @@ ________________________________________________________________________________
 
 /***
 	
-	It's Farooq Bin Munir - who write code for the public to use
+	I write code, let's use it together
 
 ***/
 
